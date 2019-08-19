@@ -1,2 +1,2 @@
 # Personal-Leetcode
-* Personal Summary of LeetCode
+## Personal Summary of LeetCode
