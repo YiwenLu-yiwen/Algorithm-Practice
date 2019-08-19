@@ -1,7 +1,8 @@
 # Personal-Leetcode
 ## Personal Summary of LeetCode
-### D1
-Create all possible solution (Q21)
+### DAY1
+(Q21)
+Create all possible solution \
 Approach 1: Brute Force
 Generate each and calculate valid or not
 ```python
@@ -29,3 +30,4 @@ Approach 2: Backtracking
                 backtrack(S+')', left, right+1)
 ```
 Approach 3: DP (Unknown)
+
