@@ -31,6 +31,7 @@ Approach 2: Backtracking
 ```
 Approach 3: DP (Unknown)
 
+Merge two lists(fastest)
 ```python
   def merge2Lists(self, l1, l2):
           head = point = ListNode(0)
