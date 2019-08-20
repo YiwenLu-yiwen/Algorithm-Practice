@@ -31,6 +31,7 @@ Approach 2: Backtracking
 ```
 Approach 3: DP (Unknown)
 
+Day 2
 Merge two lists(fastest)
 ```python
   def merge2Lists(self, l1, l2):
@@ -50,3 +51,8 @@ Merge two lists(fastest)
               point.next=l1
           return head.next
 ```
+Enumerate:
+my_list = ['apple', 'banana', 'grapes', 'pear']
+counter_list = list(enumerate(my_list, 1))
+print(counter_list)
+# Output: [(1, 'apple'), (2, 'banana'), (3, 'grapes'), (4, 'pear')]
