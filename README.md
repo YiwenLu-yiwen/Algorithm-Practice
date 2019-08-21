@@ -6,7 +6,7 @@ Create all possible solution \
 Approach 1: Brute Force
 Generate each and calculate valid or not
 ```python
-  def generate(A = []):
+def generate(A = []):
             if len(A) == 2*n:
                 if valid(A):
                     ans.append("".join(A))
@@ -20,7 +20,7 @@ Generate each and calculate valid or not
 ```
 Approach 2: Backtracking
 ```python
-  def backtrack(S = '', left = 0, right = 0):
+def backtrack(S = '', left = 0, right = 0):
             if len(S) == 2 * N:
                 ans.append(S)
                 return
@@ -34,7 +34,7 @@ Approach 3: DP (Unknown)
 Day 2
 Merge two lists(fastest)
 ```python
-  def merge2Lists(self, l1, l2):
+def merge2Lists(self, l1, l2):
           head = point = ListNode(0)
           while l1 and l2:
               if l1.val <= l2.val:
