@@ -58,10 +58,10 @@ print(counter_list)
 Output: [(1, 'apple'), (2, 'banana'), (3, 'grapes'), (4, 'pear')]
 ```
 When we do ListNode questions:
-    1. if we want to use ListNode(item).next.val: make sure it has values
-    2. None in ListNode has no values
-    $if head is a listnode$
-    2. if we do current = head, everything changed in head will appear in current
+    1. if we want to use ListNode(item).next.val: make sure it has values \
+    2. None in ListNode has no values \
+    $if head is a listnode$ \
+    3. if we do current = head, everything changed in head will appear in current \
 
 ```python
 class ListNode:
@@ -69,7 +69,7 @@ class ListNode:
          self.val = x
          self.next = None
 ```
-Example: Q24
+Example: Q24 \
 Right answer:
 ```python
 class Solution:
@@ -89,7 +89,7 @@ class Solution:
         else:
             return tmp
 ```
-Wrong:
+Wrong: 
 ```python
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
@@ -99,8 +99,8 @@ class Solution:
         while head != None and head.next != None:
             cnt += 1
             pre = head.val
-            sub.val = head.next.val
-            sub.next.val = pre
+            sub = head.next
+            sub.next = ListNode(pre)
             sub = sub.next.next
             head = head.next.next
         if cnt == 0:
