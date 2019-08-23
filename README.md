@@ -57,11 +57,11 @@ counter_list = list(enumerate(my_list, 1))
 print(counter_list)
 Output: [(1, 'apple'), (2, 'banana'), (3, 'grapes'), (4, 'pear')]
 ```
-When we do ListNode questions:
+When we do ListNode questions: \
     1. if we want to use ListNode(item).next.val: make sure it has values \
     2. None in ListNode has no values \
     $if head is a listnode$ \
-    3. if we do current = head, everything changed in head will appear in current \
+    3. if we do current = head, everything changed in head will appear in current
 
 ```python
 class ListNode:
