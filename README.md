@@ -1,5 +1,10 @@
 # Personal-Leetcode
 ## Personal Summary of LeetCode
+
+Complexity Doc: https://wiki.python.org/moin/TimeComplexity
+Deque() Pop() or /popleft() is always O(1)
+
+
 (Q21)
 Create all possible solution \
 Approach 1: Brute Force
