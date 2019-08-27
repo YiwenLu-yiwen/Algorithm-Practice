@@ -115,7 +115,7 @@ class Solution:
             return tmp
 ```
 
-Reverse a nodelist
+Reverse a nodelist (Q25)
 ```python
 current = head
 node = None
