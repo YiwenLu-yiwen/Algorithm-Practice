@@ -114,3 +114,14 @@ class Solution:
         else:
             return tmp
 ```
+
+Reverse a nodelist
+```python
+current = head
+node = None
+for _ in range(5):
+    nxt = current.next
+    current.next = node
+    node = current
+    current = nxt
+```
