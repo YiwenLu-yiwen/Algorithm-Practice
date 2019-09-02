@@ -1,1 +1,10 @@
 DP: programs in computer science are written to optimize some value; for example, find the shortest path between two points, find the line that best fits a set of points, or find the smallest set of objects that satisfies some criteria. 
+
+```python
+
+```
+
+Binary Search alwasys compare to next one
+Suppose you have the following sorted list [3, 5, 6, 8, 11, 12, 14, 15, 17, 18] and are using the recursive binary search algorithm. Which group of numbers correctly shows the sequence of comparisons used to search for the key 16?
+
+12, 17, 15
