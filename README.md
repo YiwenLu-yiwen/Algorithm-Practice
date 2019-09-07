@@ -147,3 +147,17 @@ e.g.
 ```python
 string[i:i+len(substring)] == substring
 ```
+
+dividend/divisor ????????
+```python
+while dividend>=divisor:
+    divisor_tmp = divisor
+    j=1
+    dividend-=divisor
+    i+=j
+    while dividend>=divisor_tmp+divisor_tmp:
+        j+=j
+        divisor_tmp+=divisor_tmp
+        dividend -= divisor_tmp
+        i+=j
+```
