@@ -128,16 +128,22 @@ for _ in range(5):
 
 Use O(1) to remove items
 ```python
-    def removeElement(self, nums, val):
-        """
-        :type nums: List[int]
-        :type val: int
-        :rtype: int
-        """
-        count = 0
-        for i in range(len(nums)):
-            if nums[i] != val :
-                nums[count] = nums[i]
-                count +=1
-        return count
+def removeElement(self, nums, val):
+    """
+    :type nums: List[int]
+    :type val: int
+    :rtype: int
+    """
+    count = 0
+    for i in range(len(nums)):
+        if nums[i] != val :
+            nums[count] = nums[i]
+            count +=1
+    return count
+```
+
+When check substring, check whole substring in a string or not 
+e.g.
+```python
+string[i:i+len(substring)] == substring
 ```
