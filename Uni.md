@@ -12,7 +12,7 @@ Suppose you have the following sorted list [3, 5, 6, 8, 11, 12, 14, 15, 17, 18] 
 
 Sort Algorithm
 Bubble Sort
-1. Slow way: two for loop to check each item Complexity: \[$\sum_{i = 0}^{n-1} f(i)$\]
+1. Slow way: two for loop to check each item Complexity: ! [first equation]\[$\sum_{i = 0}^{n-1} f(i)$\]
 2. Fast way: using while and for loop (if list[i] > list[i+1], we record an exchange and continue)and if in one iteration, nothing changed, we stop loop.
 ```python
 
