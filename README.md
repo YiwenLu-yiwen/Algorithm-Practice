@@ -20,6 +20,7 @@ Binary Search .
 Bubble Sort  
 Selection Sort  
 Insertion Sort  
+Shell Sort  
 
 
 ### Common:
