@@ -7,20 +7,24 @@ https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt
 Deque() Pop() or popleft() is always O(1)
 
 ### Node:
-Merge .  
-Reverse . 
+Merge  
+Reverse   
 
 ### DP:
 
 
 ### Search:
-Binary Search . 
+Binary Search  
+sequential search 
+Hash Table   
+
 
 ### Sort:
 Bubble Sort  
 Selection Sort  
 Insertion Sort  
-Shell Sort  
+Shell Sort 
+Merge Sort   
 
 
 ### Common:
