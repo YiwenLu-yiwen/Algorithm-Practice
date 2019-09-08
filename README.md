@@ -17,6 +17,9 @@ Binary Search .
 
 ### Sort:
 Bubble Sort
+Selection Sort
+Insertion Sort
+
 
 ### Common:
 check substring . 
