@@ -16,9 +16,9 @@ Reverse .
 Binary Search . 
 
 ### Sort:
-Bubble Sort
-Selection Sort
-Insertion Sort
+Bubble Sort  
+Selection Sort  
+Insertion Sort  
 
 
 ### Common:
