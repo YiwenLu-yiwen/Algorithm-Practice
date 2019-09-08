@@ -12,9 +12,14 @@ Suppose you have the following sorted list [3, 5, 6, 8, 11, 12, 14, 15, 17, 18] 
 
 Sort Algorithm
 Bubble Sort
+<<<<<<< HEAD
 1. Slow way: two for loop to check each item Complexity: ![equation](http://www.sciweavers.org/upload/Tex2Img_1567921444/render.png)
 2. Fast way: using while and for loop (if list[i] > list[i+1], we record an exchange and continue)and if in one iteration, nothing changed, we stop loop. Best case is O(n),
 Worse Case is [equation](http://www.sciweavers.org/upload/Tex2Img_1567921444/render.png)
+=======
+1. Slow way: two for loop to check each item Complexity: ![first equation](http://www.sciweavers.org/upload/Tex2Img_1567921444/render.png)
+2. Fast way: using while and for loop (if list[i] > list[i+1], we record an exchange and continue)and if in one iteration, nothing changed, we stop loop.
+>>>>>>> a4510df77b7d0f1020705859fd0af510e782203c
 ```python
 
 ```
