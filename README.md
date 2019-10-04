@@ -11,7 +11,7 @@ Deque() Pop() or popleft() is always O(1)
 Merge  
 Reverse   
 
-### [DP]https://github.com/wilison1992/Algorithm-Practice/blob/master/2.DP.md):
+### [DP](https://github.com/wilison1992/Algorithm-Practice/blob/master/2.DP.md):
 
 
 ### [Search](https://github.com/wilison1992/Algorithm-Practice/blob/master/3.Search.md):
