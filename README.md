@@ -26,6 +26,7 @@ Selection Sort
 Insertion Sort  
 Shell Sort 
 Merge Sort  
+Permutations  
  
 
 ### Common:
@@ -37,9 +38,11 @@ fast divide algorithm
 Binary Tree   
 preorder  
 inorder  
-postorder  
-BFS
-DFS
+postorder   
+BFS  
+DFS  
+Heap  
+Binary Search Tree  
 
 
 ### Grama:
