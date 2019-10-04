@@ -34,7 +34,7 @@ check substring
 remove list item   
 fast divide algorithm    
 
-### Tree !(https://github.com/wilison1992/Algorithm-Practice/blob/master/6.Tree.md):
+### [Tree](https://github.com/wilison1992/Algorithm-Practice/blob/master/6.Tree.md):
 Binary Tree   
 preorder  
 inorder  
